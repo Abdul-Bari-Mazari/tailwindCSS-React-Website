@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .nav-link {
+    @apply hover:text-gray-500 cursor-pointer;
+  }
+
+  path {
+    @apply text-black;
+  }
+}
